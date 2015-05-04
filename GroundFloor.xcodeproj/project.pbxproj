@@ -11,6 +11,8 @@
 		733172C11ABE67B4009C18B0 /* GroundFloor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733172B51ABE67B4009C18B0 /* GroundFloor.framework */; };
 		733172C81ABE67B4009C18B0 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733172C71ABE67B4009C18B0 /* DictionaryTests.swift */; };
 		733172D21ABE6862009C18B0 /* Dictionary+GroundFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733172D11ABE6862009C18B0 /* Dictionary+GroundFloor.swift */; };
+		737A25C01AF807050011F4F9 /* String+Contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A25BF1AF807050011F4F9 /* String+Contains.swift */; };
+		737A25C21AF8095C0011F4F9 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A25C11AF8095C0011F4F9 /* StringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		733172C61ABE67B4009C18B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		733172C71ABE67B4009C18B0 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		733172D11ABE6862009C18B0 /* Dictionary+GroundFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+GroundFloor.swift"; sourceTree = "<group>"; };
+		737A25BF1AF807050011F4F9 /* String+Contains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Contains.swift"; sourceTree = "<group>"; };
+		737A25C11AF8095C0011F4F9 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			children = (
 				733172BA1ABE67B4009C18B0 /* GroundFloor.h */,
 				733172D11ABE6862009C18B0 /* Dictionary+GroundFloor.swift */,
+				737A25BF1AF807050011F4F9 /* String+Contains.swift */,
 				733172B81ABE67B4009C18B0 /* Supporting Files */,
 			);
 			path = GroundFloor;
@@ -93,6 +98,7 @@
 			children = (
 				733172C71ABE67B4009C18B0 /* DictionaryTests.swift */,
 				733172C51ABE67B4009C18B0 /* Supporting Files */,
+				737A25C11AF8095C0011F4F9 /* StringTests.swift */,
 			);
 			path = GroundFloorTests;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737A25C01AF807050011F4F9 /* String+Contains.swift in Sources */,
 				733172D21ABE6862009C18B0 /* Dictionary+GroundFloor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737A25C21AF8095C0011F4F9 /* StringTests.swift in Sources */,
 				733172C81ABE67B4009C18B0 /* DictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
